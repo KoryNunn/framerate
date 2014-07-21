@@ -4,10 +4,10 @@ get the current framerate
 
 # usage
 
-npm install framerate
+    npm install framerate
 
-var framerate = require('framerate');
+    var framerate = require('framerate');
 
-framerate.on('frame', function(fps, frameTime){
-    .. do something
-});
+    framerate.on('frame', function(fps, frameTime){
+        .. do something
+    });
